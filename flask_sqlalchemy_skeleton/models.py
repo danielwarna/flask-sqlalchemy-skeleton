@@ -1,4 +1,4 @@
-from  flask_sqlalchemy_skeleton import app, db, bcrypt
+from . import app, db, bcrypt
 from flask.ext.login import UserMixin
 from sqlalchemy.ext.hybrid import hybrid_property
 

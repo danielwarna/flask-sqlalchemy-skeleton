@@ -1,4 +1,4 @@
-from flask_sqlalchemy_skeleton import app
+from . import app
 from flask import render_template
 
 @app.errorhandler(404)

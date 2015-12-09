@@ -1,4 +1,4 @@
-from flask_sqlalchemy_skeleton import app, db
+from . import app, db
 
 from flask import render_template, flash, request, redirect, url_for
 from models import *
