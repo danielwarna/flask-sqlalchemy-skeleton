@@ -7,7 +7,7 @@ class Config(object):
     TESTING = False
     SECRET_KEY = "mysecretkey"
     TEMPLATE_FOLDER = "templates"
-
+    BCRYPT_LOG_ROUNDS = 12
 
 class DevConfig(object):
     DEBUG = True
